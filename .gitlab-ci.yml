@@ -1,0 +1,21 @@
+testcat:
+        variables:
+                GIT_SUBMODULE_STRATEGY: recursive
+        script:
+                - env
+                - ls
+                - ls trezor-common/
+                - cat test.txt
+                - whoami
+testjob1:
+        script:
+                - echo Ahoj svete job1
+                - echo neco > soubor.txt
+        artifacts:
+                paths:
+                        - soubor.txt
+
+testjob2:
+        script:
+                - env
+                - echo test svet2
