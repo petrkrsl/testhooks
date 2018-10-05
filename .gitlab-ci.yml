@@ -19,3 +19,8 @@ testjob2:
         script:
                 - env
                 - echo test svet2
+
+testjob3:
+        script:
+                - env
+                - echo test svet3
