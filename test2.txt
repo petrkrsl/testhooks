@@ -1,2 +1,3 @@
 new file2
 new line in text file 2
+New test 3
