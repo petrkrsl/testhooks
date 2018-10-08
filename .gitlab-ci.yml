@@ -10,8 +10,6 @@ testcat:
                 - sleep 10
                 - echo Uz nedelam nic
                 - sleep 10
-                - echo Tak jeste neco udelam
-                - sleep 12
                 - whoami
 testjob1:
         script:
@@ -24,6 +22,8 @@ testjob1:
 testjob2:
         script:
                 - env
+                - echo Mozna neco udelam i tady
+                - sleep 10
                 - echo test svet2
 
 testjob3:
