@@ -4,8 +4,6 @@ testcat:
         script:
                 - env
                 - ls
-                - ls trezor-common/
-                - cat test.txt
                 - whoami
 testjob1:
         script:
