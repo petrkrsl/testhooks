@@ -11,7 +11,7 @@ testcat:
                 - echo Uz nedelam nic
                 - sleep 10
                 - echo Tak jeste neco udelam
-                - sleep 10
+                - sleep 12
                 - whoami
 testjob1:
         script:
