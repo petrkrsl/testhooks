@@ -9,6 +9,9 @@ testcat:
                 - echo Delam ze stale buildim
                 - sleep 10
                 - echo Uz nedelam nic
+                - sleep 10
+                - echo Tak jeste neco udelam
+                - sleep 10
                 - whoami
 testjob1:
         script:
