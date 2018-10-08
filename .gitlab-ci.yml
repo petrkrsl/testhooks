@@ -4,6 +4,11 @@ testcat:
         script:
                 - env
                 - ls
+                - echo Delam ze buildim
+                - sleep 10
+                - echo Delam ze stale buildim
+                - sleep 10
+                - echo Uz nedelam nic
                 - whoami
 testjob1:
         script:
