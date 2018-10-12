@@ -8,8 +8,6 @@ testcat:
                 - sleep 10
                 - echo Delam ze stale buildim
                 - sleep 10
-                - echo Uz nedelam nic
-                - sleep 10
                 - whoami
 testjob1:
         script:
@@ -23,7 +21,7 @@ testjob2:
         script:
                 - env
                 - echo Mozna neco udelam i tady
-                - sleep 10
+                - sleep 5
                 - echo test svet2
 
 testjob3:
